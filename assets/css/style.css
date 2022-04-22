@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+:root{
+    --hijo-tua:  #99BBAD;
+    --abu: #545555;
+    --abu-muda :#838585;
+    --putih: #FFFFFF;
+    --typo : "Syne", sans-serif; 
+    --bold: 700;
+    --black: 800;
+    --light: 300;
+    --regular: 500;
+}
+
+* {
+    font-family: var(--typo);
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: var(--abu-muda) !important;
+    color: var(--putih) !important;
+}
+
+
+.part{
+    background-color: var(--putih);
+    padding: 3px 8px;
+    border-radius: 7px;
+}
+
+.part1{
+    color:  var(--abu);
+}
+
+.part2{
+    color: var(--hijo-tua);
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.card-title{
+    color: var(--hijo-tua);
+}
+
+.card-text{
+    color: var(--abu);
+}
+
+.center{
+    text-align: center !important;
+}
